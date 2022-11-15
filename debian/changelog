@@ -1,4 +1,10 @@
-gpib (4.3.4-1lsi1) UNRELEASED; urgency=medium
+gpib (4.3.4-1lsi2) UNRELEASED; urgency=medium
+
+  * Applied the patch permanently setting GPI0 (GPIB REN on gpib4pi-1.1)
+
+ -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Tue, 15 Nov 2022 18:27:24 +0100
+
+gpib (4.3.4-1lsi1) bullseye; urgency=medium
 
   * Updated to more revent upstream version of gpib_bitbang.c kernel module
   * Patch with workaround fixing issue with HP 59306A
